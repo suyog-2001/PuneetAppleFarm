@@ -1,0 +1,638 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+.section{
+    background-color: rgb(252, 250, 250);
+}
+
+
+#mobile i{
+    color: rgb(220, 208, 208);
+      font-size: 24px;
+      padding:50px 120px;
+    float: right;
+        
+    }
+
+.sec{
+    background-image: url('apple.png');
+    height:550px;
+    width:100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.image{
+    width:100%;
+    height:200px;
+    margin-bottom: 10px;
+    
+}
+.image img{
+    height:250px;
+    width:250px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    border: 6px solid white;
+    box-shadow: 5px 5px 10px 1px rgb(143, 143, 143);
+    float:left;
+    margin-left: 150px;
+    margin-top: -100px;
+}
+.image h5{
+    float:right;
+    margin-right: 150px;
+    margin-top: 10px;
+}
+
+.pInfo{
+    width: 80%;
+    height:250px;
+    /* background-color: lightblue; */
+    text-align:start;
+    margin-left: 170px;
+    position: relative;
+}
+.edit{
+    position: relative;
+    float: right;
+    margin-right: 800px;
+    margin-top: -32px;
+    color:rgb(6, 94, 34);
+    display:inline;
+}
+.edit h6{
+    display:inline;
+    margin-left: 10px;
+}
+
+
+.delLocation{
+    width: 80%;
+    height:250px;
+    /* background-color: lightblue; */
+    margin-left: 140px;
+}
+.delLocation h2{
+    text-align:center;
+    color:rgb(6, 94, 34);
+    margin-bottom: 50px;
+}
+.btn1{
+    margin-left: 415px;
+    margin-bottom: 30px;
+}
+.btn{
+    margin-left: 280px;
+}
+.delLocation button{
+    height: 45px;
+    width: auto;
+    /* padding: 5px; */
+    padding:0px 25px;
+    background-color: lightgreen;
+    color:rgb(6, 94, 34);
+    border-radius:10px;
+    border:none;
+    margin-left: 25px;
+    font-weight: bold;
+}
+.delLocation button:hover{
+    background-color: rgb(6, 94, 34);
+    color:lightgreen;
+
+}
+.discription{
+    height: 400px;
+    width: auto;
+    /* background-color: lightgreen; */
+    margin-top: 20px;
+    padding:0px 400px;
+}
+.discription .edit2{
+    position: relative;
+    float: right;
+    /* margin-right: 0px; */
+    margin-top: -32px;
+    color:rgb(6, 94, 34);
+    display:inline;   
+}
+.edit2 h6{
+    display:inline;
+    margin-left: 10px;
+}
+
+.discription textarea{
+    margin-top: 20px;
+    padding: 0px 20px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px 1px rgb(143, 143, 143);
+
+}
+.payMethod{
+padding: 50px 400px;
+}
+.upi{
+    box-shadow: 5px 5px 10px 1px rgb(143, 143, 143);
+    padding: 10px 30px;
+    border-radius: 10px;
+    margin-top: 50px;
+    background-color: #fff;
+}
+.cash{
+    box-shadow: 5px 5px 10px 1px rgb(143, 143, 143);
+    padding: 10px 30px;
+    border-radius: 10px;
+    margin-top: 50px;
+    background-color: #fff;
+
+}
+.rad{
+    float: right;
+    margin-right: 20px;
+    margin-top: -20px;
+
+}
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+  }
+  
+  .switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  /* The slider */
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  input:checked + .slider {
+    background-color: #2196F3;
+  }
+  
+  input:focus + .slider {
+    box-shadow: 0 0 10px #2196F3;
+  }
+  
+  input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+  }
+  
+  .slider.round {
+    border-radius: 34px;
+  }
+  
+  .slider.round:before {
+    border-radius: 50%;
+  }
+
+  /* Cart */
+.back{
+    padding: 0px 0px;
+    width:100%;
+    height:60px;
+}
+.back i{
+    margin-left: 30px;
+    margin-top: 22px;
+}
+.back a{
+    text-decoration: none;
+    color: rgb(6, 94, 34);
+}
+.back h3{
+    margin-top: -18px;
+    margin-left: 60px;
+
+}
+
+  .pr{
+    text-align: center;
+    /* float: left; */
+    margin-top: 30px;
+    width: 100%;
+  }
+  .pr ul li{
+    display:inline;
+  }
+  .prog{
+	position: relative;
+	z-index: 1;
+    float: left;
+    text-align: center;
+    padding:0px 30px;
+    margin-top: 20px;
+    margin-left: 280px;
+    background-color: #fff;
+
+  }
+  .prog h3{
+    color:rgb(98, 195, 98);
+  }
+  .line{
+    position: relative;
+	background-color:rgb(6, 94, 34);
+    width: 80%;
+	height: 2px;
+    top: 30px;
+margin-left: 120px;
+  }
+  
+
+
+  #cart{
+	overflow-x: auto;
+    padding: 20px 80px;
+    float: left;
+    margin-top: 50px;
+}
+#cart table{
+	width: 100%;
+	border-collapse: collapse;
+	table-layout: fixed;
+	white-space: wrap;
+}
+
+#cart table td:nth-child(1){
+	width: 100px;
+	text-align: center;
+}
+#cart table td:nth-child(2){
+	width: 150px;
+	text-align: center;
+}
+#cart table td:nth-child(3){
+	width: 250px;
+	text-align: center;
+}
+#cart table td:nth-child(4),
+#cart table td:nth-child(5),
+#cart table td:nth-child(6){
+	width: 150px;
+	text-align: center;
+}
+#cart table td:nth-child(5) input{
+	width: 70px;
+	padding: 10px 5px 10px 15px;
+}
+#cart table thead{
+	border: 1px solid #e2e9e1;
+	border-left: none;
+	border-right: none;
+}
+#cart table thead td{
+	font-weight: 700;
+	text-transform: uppercase;
+	font-size: 13px;
+	padding: 18px 0;
+}
+#cart table tbody tr td{
+	padding-top: 15px;
+}
+#cart table tbody td{
+	font-size: 17px;
+}
+#cart-add{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+ 
+.addmore{
+    width:70%;
+    height: 40px;
+    padding: 6px 40px;
+    box-shadow: 5px 5px 10px 1px rgb(114, 170, 117);
+    border-radius: 7px;
+    margin-top: 35px;
+    margin-left: 150px;
+    text-align: left;
+
+}
+.addmore h2{
+    /* margin-top: 35px; */
+    color:rgb(16, 120, 16);
+}
+.addmore i{
+    float:right;
+    margin-top:-19px;
+    font-size:25px;
+}
+
+.mrp{
+    width:70%;
+    height: 100px;    
+    border-radius: 5px;
+    border:1px solid black;
+    padding: 0px 35px;
+    margin-left: 152px;
+    margin-bottom: 25px;
+    margin-top:20px;
+}
+.tmrp{
+    margin-top: 10px;
+    padding:0px 50px;
+    color:rgb(16, 120, 16);
+   
+}
+.tcon{
+    margin-top: 30px;
+    padding:0px 50px;
+    color:rgb(16, 120, 16);   
+}
+.oneone{
+    float: right;
+    margin-top:-22px;
+    color:rgb(16, 120, 16);
+
+}
+.threethree{
+    float: right;
+    margin-top: -23px;
+    color:rgb(16, 120, 16);
+
+
+}
+.total{
+    width:70%;
+    height: 50px;
+    box-shadow: 5px 5px 10px 1px rgb(143, 143, 143);
+    border-radius: 5px;
+    padding: 0px 35px;
+    margin-left: 152px;
+}
+
+.ta{
+    color:rgb(16, 120, 16);
+    margin-top: 15px;
+
+}
+.amount{
+    float: right;
+    margin-top: -15px;
+}
+
+
+
+
+.button{
+    border-radius: 10px;
+    background-color: rgb(102, 202, 77);
+    border: none;
+    width: 50%;
+    height:50px;
+    padding: 5px 50px;
+    margin-top: 30px;
+    color:white;
+    font-size: 30px;
+    margin-left: 350px;
+    font-weight: bold;
+}
+.button:hover{
+    background-color: rgb(51, 136, 30);
+    color:white;
+
+}
+
+
+
+
+/* Media Query */
+@media only screen and (max-width:700px){
+    .sec{
+        width: 100%;
+        height: 150px;
+
+    }
+    #mobile i{
+        
+          padding:30px 30px;            
+        }
+    .image{
+        width: 100%;
+        height: 100px;
+    }
+    .image img{
+        height:120px;
+        width:120px;
+        margin-left: 35px;
+        margin-top: -60px;
+
+    }
+    .image h5{
+        float:right;   
+        margin-right: 55px; 
+        font-size: 12px;
+    }
+    .pInfo{
+        width: 70%;
+        margin-left: 50px;
+        position: relative;
+    }
+    .edit{
+        position: relative;
+        float: left;
+        margin-left: 280px;
+        display: inline;
+        margin-top: -32px;
+    }
+    .edit h6{
+        display: none;
+    }
+
+    .delLocation{
+        height: 200px;
+        /* position: relative; */
+        margin-left: -50px;
+        padding:0px 20px;
+        width: 100%;
+        text-align: start;
+    }
+    .btn{
+        /* position: relative; */
+    margin-left: 0px;
+    display: inline;
+    height: 10px;
+    width: auto;
+    margin-top: 10px;
+    
+    }
+    .btn1{
+        /* position: relative; */
+        margin-left:80px;
+        height:40px;
+    }
+    .delLocation button{
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-top:10px;
+
+    }
+    .discription{
+        padding:0px 30px;
+        margin-top: 90px;
+        
+    }
+    .discription textarea{
+        width: 100%;
+        height:380px;
+    }
+    .discription .edit2{
+    margin-right: 0px;
+
+    }
+    .payMethod{
+        padding: 0px 30px;
+        margin-top: 45px;
+        
+    }    
+    .upi{
+        margin-top: 20px;
+    }
+    .cash{
+        margin-top: 20px;
+    }
+
+    /* cart */
+    .pr{
+        display: none;
+  }
+  #cart{
+    padding: 0px 0px;
+
+  }
+  
+
+}
+
+
+
+
+@media only screen and (max-width:1200px){
+    .sec{
+        width: 100%;
+        height: 350px;
+
+    }
+    #mobile i{
+        padding:30px 30px;
+        
+        }
+    .image{
+        width: 100%;
+        height: 200px;
+    }
+    .image img{
+        height:220px;
+        width:220px;
+        margin-left: 35px;
+        margin-top: -90px;
+
+    }
+    .image h5{
+        float:right;   
+        margin-right: 55px; 
+        font-size: 12px;
+    }
+    .pInfo{
+        margin-top: -50px;
+        width: 70%;
+        margin-left: 50px;
+        position: relative;
+    }
+    .edit{
+        position: relative;
+        float: left;
+        margin-left: 280px;
+        display: inline;
+        margin-top: -32px;
+    }
+    .edit h6{
+        display: none;
+    }
+
+    .delLocation{
+        height: 200px;
+        /* position: relative; */
+        margin-left: 1px;
+        padding:0px 30px;
+        width: 100%;
+        text-align: start;
+    }
+    .btn{
+        /* position: relative; */
+    margin-left: 0px;
+    display: inline;
+    height: 10px;
+    width: auto;
+    margin-top: 10px;
+    }
+    .btn1{
+        /* position: relative; */
+        margin-left:70px;
+        height:10px;
+    }
+    .delLocation button{
+        margin-left: -00px;
+        margin-right: 0px;
+        margin-top:10px;
+
+    }
+    .discription{
+        padding:0px 30px;
+        margin-top: 90px;
+        
+    }
+    .discription textarea{
+        width: 100%;
+        height:365px;
+    }
+    .discription .edit2{
+    margin-right: 0px;
+
+    }
+    .payMethod{
+        padding: 0px 30px;
+        margin-top: 45px;
+        
+    }    
+    .upi{
+        margin-top: 20px;
+    }
+    .cash{
+        margin-top: 20px;
+    }
+    .pr{
+        display: none;
+    }
+}
